@@ -21,7 +21,7 @@ A system-assigned [managed identity](https://docs.microsoft.com/en-us/azure/acti
 
 ```bash
 docker build -t app:latest .
-docker run -p 8050:8050 app
+docker run -p 8501:8501 app
 ```
 
 ## Deploy the Application on Azure
