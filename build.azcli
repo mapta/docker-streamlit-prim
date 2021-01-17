@@ -1,0 +1,10 @@
+# Variables
+resourceGroupName=docker-streamlit-prim
+location=westeurope
+containerRegistryName=dsprimcr
+appPlanName=dsprimplan
+webAppName=docker-streamlit-prim
+imageName=app
+whName=dsprimwh
+
+az acr build --registry $containerRegistryName --resource-group $resourceGroupName --image $imageName .
